@@ -1,0 +1,25 @@
+.MainHeaderWrapper {
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    width: 100%;
+    background: #fff;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    box-shadow: 20px 0 40px rgba(0, 0, 0, .04);
+    position: relative;
+    z-index: 1;
+}
+
+.MainFooterwrapper {
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    width: 100%;
+    background: #fff;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    box-shadow: 20px 0 40px rgba(0, 0, 0, .04);
+    position: relative;
+    z-index: 1;
+}
