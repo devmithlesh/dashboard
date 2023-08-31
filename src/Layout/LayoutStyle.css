@@ -1,6 +1,6 @@
 .MainHeaderWrapper {
     flex-wrap: wrap;
-    padding: 20px 30px;
+    padding: 0px 30px;
     width: 100%;
     background: #fff;
     height: 62px;
@@ -22,4 +22,68 @@
     box-shadow: 20px 0 40px rgba(0, 0, 0, .04);
     position: relative;
     z-index: 1;
+}
+
+/* sidebar */
+.logomain img {
+    width: 150px;
+    height: 100%;
+}
+
+.sidebarlist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.sidebarlist li {
+    width: 100%;
+    list-style: none;
+}
+
+.sidebarlist li p {
+    width: 100%;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 11px 16px;
+}
+
+.sidebarlist li.active p {
+    background: #0E77D3;
+    color: #fff;
+}
+
+.textmain {
+    color: #171717;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 120%;
+}
+
+.textmain span {
+    font-weight: 700;
+}
+
+.Hproimg img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.Hprofilemain {
+    gap: 10px;
+}
+
+.Hprofilemain .Hproimg {
+    cursor: pointer;
+}
+
+.Hprofilemain svg {
+    cursor: pointer;
 }
