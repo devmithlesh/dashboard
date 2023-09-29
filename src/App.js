@@ -13,13 +13,17 @@ import Billings from './Pages/Billings/Billings';
 import AllProgram from './Pages/AllProgram/AllProgram';
 import Addscreen from './Pages/Dashboard/Addscreen';
 import Datacall from './Pages/CallRecord/Datacall';
+import { useState } from 'react';
 
 function App() {
+
+  const [istoggle, setIstoggle] = useState(false)
+
   return (
     <div className="AppContainer">
-      <Sidebar />
+      <Sidebar isActive={istoggle} setIsActive={setIstoggle} />
       <div className="mainWrapper">
-        <Header />
+        <Header isActive={istoggle} setIsActive={setIstoggle} />
         <div className="PagesWrapper">
           <Routes>
             <Route path="/" element={<Dashboard />} />

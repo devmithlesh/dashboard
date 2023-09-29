@@ -32,3 +32,37 @@
     width: 100%;
     height: calc(100vh - 124px);
 }
+
+.toggleBar,
+.crossIcon {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .AppContainer {
+        position: relative;
+    }
+
+    .MainSidebarWrapper {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        height: calc(100vh - 65px);
+        transition: 0.4s;
+    }
+
+    .MainSidebarWrapper.active {
+        left: -100%;
+    }
+
+    .mainWrapper {
+        max-width: 100%;
+    }
+
+    .toggleBar,
+    .crossIcon {
+        display: block;
+    }
+}

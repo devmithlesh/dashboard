@@ -1,0 +1,63 @@
+.ProfileDropdownWrapper,
+.DropdownNotification {
+    background: #fff;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.ProfileDrapdownMain {
+    position: absolute;
+    z-index: 9;
+    width: 130px;
+    right: 0;
+    padding: 16px;
+    top: 55px;
+}
+
+.ProfileDrapdownMain ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ProfileDrapdownMain ul li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: var(--black-5);
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    padding-bottom: 12px;
+}
+
+.ProfileDrapdownMain ul li:last-child {
+    padding-bottom: 0;
+}
+
+.ProfileDropdownWrapper ul li:hover {
+    color: var(--blue-6);
+}
+
+.ListProfileDropdown .logOut {
+    color: var(--red-6);
+}
+
+.Border-btm {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.ProfileDrapdownMain::before {
+    content: "";
+    position: absolute;
+    border-width: 0 0.5em 0.5em 0.5em;
+    border-style: solid;
+    opacity: 1;
+    transition: 0.6s ease-in;
+    transform: translate3d(-50%, 0, 0);
+    border-color: transparent transparent white transparent;
+    filter: drop-shadow(1px -1px 1px #E5E5E5);
+    top: -7px;
+    right: 6px;
+}
+
+/* Notification Dropdown Menu */
