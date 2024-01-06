@@ -30,7 +30,7 @@
     overflow: auto;
     padding: 40px 30px;
     width: 100%;
-    height: calc(100vh - 124px);
+    height: calc(100vh - 63px);
 }
 
 .toggleBar,

@@ -1,0 +1,67 @@
+:root {
+    --white: #fff;
+    --grey1: #fafafa;
+    --grey2: #f5f5f5;
+    --grey3: #e5e5e5;
+    --grey4: #d4d4d4;
+    --grey5: #a3a3a3;
+    --black1: #737373;
+    --black2: #525252;
+    --black3: #404040;
+    --black4: #262626;
+    --black5: #171717;
+    --black6: #343434;
+    --black7: #121112;
+    --blue: #3f3a5b;
+    --blue1: #3397ef;
+    --blue2: #59a9ef;
+    --blue3: #92c4f0;
+    --blue4: #b8d6f0;
+    --blue5: #d5e4f1;
+    --blue6: #0e77d3;
+    --blue7: #3597ec;
+    --blue8: #e0effd;
+    --purple1: #7757f4;
+    --purple2: #8f76f3;
+    --purple3: #b4a4f3;
+    --purple4: #b4a4f3;
+    --purple5: #dfdaf1;
+    --yellow1: #ffcd42;
+    --yellow2: #fcd465;
+    --yellow3: #f8df9a;
+    --yellow4: #f5e6bd;
+    --yellow5: #f3ecd7;
+    --yellow6: #f9c945;
+    --green1: #7bc896;
+    --green2: #93d0a8;
+    --green3: #b6ddc3;
+    --green4: #cee5d6;
+    --green5: #dfebe3;
+    --red1: #ef5350;
+    --red2: #f48785;
+    --red3: #f7a9a7;
+    --red4: #facbcb;
+    --red5: #dfebe3;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar {
+    height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}

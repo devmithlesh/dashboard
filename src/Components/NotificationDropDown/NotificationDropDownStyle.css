@@ -6,6 +6,16 @@
 
 .DropdownNotification .NotificationList img {
     padding: 0;
+    cursor: pointer;
+}
+
+.NotificationList {
+    overflow: auto;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
 }
 
 .NotificationList li {
@@ -16,11 +26,14 @@
 
 .NotificationList li .notificationBel {
     font-size: 13px;
-    color: var(--black-1);
+    color: var(--black1);
+    width: calc(100% - 44px);
 }
 
 .NotificationList li .notificationBel span {
-    color: var(--blue-5);
+    color: var(--blue6);
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .footerViewAll {
@@ -28,12 +41,13 @@
     margin-top: 12px;
     padding-top: 12px;
     text-align: center;
+    padding-bottom: 12px;
 }
 
 .footerViewAll span {
     font-weight: 400;
     font-size: 13px;
     line-height: 120%;
-    color: var(--red-6);
+    color: var(--red1);
     cursor: pointer;
 }

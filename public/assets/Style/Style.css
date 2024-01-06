@@ -1,0 +1,6 @@
+.tabActive{
+    display: none;
+}
+.tabActive.active{
+    display: block;
+}

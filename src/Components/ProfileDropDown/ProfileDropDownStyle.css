@@ -1,7 +1,7 @@
 .ProfileDropdownWrapper,
 .DropdownNotification {
     background: #fff;
-    border: 1px solid grey;
+    border: 1px solid var(--grey4);
     border-radius: 6px;
 }
 
@@ -24,7 +24,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 120%;
-    color: var(--black-5);
+    color: var(--black5);
     cursor: pointer;
     transition: 0.4s ease-in;
     padding-bottom: 12px;
@@ -35,11 +35,11 @@
 }
 
 .ProfileDropdownWrapper ul li:hover {
-    color: var(--blue-6);
+    color: var(--blue6);
 }
 
 .ListProfileDropdown .logOut {
-    color: var(--red-6);
+    color: var(--red2);
 }
 
 .Border-btm {

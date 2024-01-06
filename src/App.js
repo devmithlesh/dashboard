@@ -17,12 +17,13 @@ import { useState } from 'react';
 
 function App() {
 
-  const [istoggle, setIstoggle] = useState(false)
+  const [istoggle, setIstoggle] = useState(false);
+  const [isActiveSide, setIsActiveSide] = useState(false);
 
   return (
     <div className="AppContainer">
-      <Sidebar isActive={istoggle} setIsActive={setIstoggle} />
-      <div className="mainWrapper">
+      <Sidebar isActive={istoggle} setIsActive={setIstoggle} setIsSideActive={setIsActiveSide} isSideActive={isActiveSide} />
+      <div className={`mainWrapper ${isActiveSide === true && 'Sideactive'}`}>
         <Header isActive={istoggle} setIsActive={setIstoggle} />
         <div className="PagesWrapper">
           <Routes>
@@ -38,7 +39,7 @@ function App() {
             <Route path="*" element={<PagenotFound />} />
           </Routes>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );

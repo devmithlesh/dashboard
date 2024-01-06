@@ -34,7 +34,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 22px;
+    gap: 12px;
+    overflow: auto;
+    height: calc(100vh - 146px);
 }
 
 .sidebarlist li {
@@ -42,7 +44,7 @@
     list-style: none;
 }
 
-.sidebarlist li p {
+.sidebarlist li {
     width: 100%;
     color: #737373;
     font-size: 14px;
@@ -51,11 +53,26 @@
     cursor: pointer;
     border-radius: 4px;
     padding: 11px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.sidebarlist li.active p {
+.sidebarlist li.active {
     background: #0E77D3;
     color: #fff;
+}
+
+.sidebarlist li svg {
+    transition: 0.4s;
+}
+
+.sidebarlist li.active svg {
+    transform: translate(4px);
+}
+
+.sidebarlist li.active svg path {
+    stroke: #fff;
 }
 
 .textmain {
@@ -70,14 +87,21 @@
 }
 
 .Hproimg img {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
     object-fit: cover;
     object-position: top;
+    border: 2px solid var(--grey3);
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.Hproimg img:hover {
+    border: 2px solid var(--blue6);
 }
 
 .Hprofilemain {
-    gap: 10px;
+    gap: 15px;
 }
 
 .Hprofilemain .Hproimg {
@@ -92,4 +116,23 @@
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.menutext12 {
+    color: #737373;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.Hprofilemain .Hproimg {
+    position: relative;
+}
+
+.Hprofilemain .Hproimg .DropdownNotification {
+    position: absolute;
+    right: 0;
+    width: 350px;
+    cursor: default;
 }
