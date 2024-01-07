@@ -11,7 +11,7 @@
 
 .NotificationList {
     overflow: auto;
-    max-height: 300px;
+    height: calc(100vh - 302px);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -33,7 +33,6 @@
 .NotificationList li .notificationBel span {
     color: var(--blue6);
     font-weight: 500;
-    cursor: pointer;
 }
 
 .footerViewAll {

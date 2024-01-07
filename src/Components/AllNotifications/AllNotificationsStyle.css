@@ -1,0 +1,61 @@
+
+.AllNotificationList {
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+    padding: 0;
+}
+
+.AllNotificationList li {
+    border-bottom: 1px dashed #E5E5E5;
+    padding: 12px;
+    transition: 0.4s;
+}
+
+.AllNotificationList li:hover{
+    background-color: var(--grey1);
+}
+
+.AllNotificationList li .notificationBel {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.nameuserNotification {
+    font-size: 14px;
+}
+
+.nameuserNotification .timeNofication {
+    font-size: 12px;
+}
+
+.AllNotificationList li>img {
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Bluedot {
+    background: #3397EF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+}
+
+.ViewMorenotification {
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.AllNotificationWrapper{
+    background: var(--white);
+    border-radius: 6px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .04);
+    padding: 20px 0;
+}

@@ -1,0 +1,140 @@
+button {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 12px 16px;
+    margin: 0;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--black3);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    outline: none;
+}
+
+.button img {
+    max-width: 14px;
+}
+
+.iconButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 4px;
+}
+
+.blueButton {
+    color: var(--white);
+    background: var(--blue6);
+    border-color: var(--blue6);
+    transition: 0.4s;
+}
+
+.blueBorderButton {
+    color: var(--blue6);
+    background: var(--white);
+    border-color: var(--blue6);
+    transition: 0.4s;
+}
+
+.BlueBorderButton {
+    border: 1px solid var(--blue6);
+    color: var(--blue6);
+}
+
+.BlueFillButton {
+    border: 1px solid var(--blue6);
+    background: var(--blue6);
+    color: var(--white);
+    transition: 0.4s;
+}
+
+.BlueFillButton:hover {
+    background: var(--blue5);
+}
+
+.GreyFillButton {
+    border: 1px solid var(--grey4);
+    background: var(--grey4);
+    color: var(--black5);
+}
+
+.GreyBorderButton {
+    border: 1px solid var(--grey4);
+    background: var(--white);
+    color: var(--black);
+}
+
+.BlackFillButton {
+    border: 1px solid var(--black);
+    background: var(--black);
+    color: var(--white);
+}
+
+.RedFillButton {
+    border: 1px solid var(--red2);
+    background: var(--red2);
+    color: var(--white);
+}
+
+.RedBorderButton {
+    border: 1px solid var(--red6);
+    background: var(--white);
+    color: var(--red6);
+}
+
+.BlackBorderButton {
+    border: 1px solid var(--black);
+    background: var(--white);
+    color: var(--black);
+}
+
+.GreenFillButton {
+    border: 1px solid var(--green);
+    background: var(--green);
+    color: var(--white);
+}
+
+.invertImg img {
+    filter: invert(1);
+}
+
+.blueTextButton {
+    color: var(--blue6);
+}
+
+.reverseIcon {
+    flex-direction: row-reverse;
+}
+
+.loginButton {
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.iconReversed {
+    flex-direction: row-reverse;
+}
+
+.creditButton {
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.buttontext {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media (max-width: 767px) {}

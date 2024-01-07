@@ -14,6 +14,7 @@ import AllProgram from './Pages/AllProgram/AllProgram';
 import Addscreen from './Pages/Dashboard/Addscreen';
 import Datacall from './Pages/CallRecord/Datacall';
 import { useState } from 'react';
+import AllNotifications from './Components/AllNotifications/AllNotifications';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
             <Route path="/all-program" element={<AllProgram />} />
             <Route path="/manage-credit" element={<ManageCredit />} />
             <Route path="/billing" element={<Billings />} />
+            <Route path="/all-notification" element={<AllNotifications />} />
             <Route path="*" element={<PagenotFound />} />
           </Routes>
         </div>
