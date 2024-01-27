@@ -21,7 +21,7 @@ function NotificationDropDown({ className, isActive, setIsActive }) {
     }, [ref]);
 
     return (
-        <div className={`DropdownNotification ${className} ${isActive && "active"}`} ref={ref}>
+        <div className={`DropdownNotification ${isActive && "active"}`} ref={ref}>
             <ul className='NotificationList'>
                 <li>
                     <img src="/assets/img/profile.png" alt="" />

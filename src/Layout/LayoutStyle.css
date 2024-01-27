@@ -126,14 +126,14 @@
     text-transform: uppercase;
 }
 
-.Hprofilemain .Hproimg {
+.Hprofilemain .nofitIconMianWrap {
     position: relative;
 }
 
-.Hprofilemain .Hproimg .DropdownNotification {
+.Hprofilemain .nofitIconMianWrap .DropdownNotification {
     position: absolute;
     right: -5px;
-    top: 0px;
+    top: 20px;
     width: 350px;
     cursor: default;
     transition: 0.4s;
@@ -141,7 +141,7 @@
     visibility: hidden;
 }
 
-.Hprofilemain .Hproimg .DropdownNotification.active {
+.Hprofilemain .nofitIconMianWrap .DropdownNotification.active {
     transform: translateY(20px);
     opacity: 1;
     visibility: visible;
@@ -162,19 +162,8 @@
     animation: keyframes-fill .5s;
 }
 
-.NotiwrapIcon .bell-solid {
-    position: absolute;
-    display: none;
-    animation: keyframes-fill .5s;
-}
-
-/* ------ On check event ------ */
-.NotiwrapIcon input:checked~.bell-regular {
-    display: none;
-}
-
-.NotiwrapIcon input:checked~.bell-solid {
-    display: block;
+.NotiwrapIcon.active .bell-regular svg path {
+    fill: red;
 }
 
 /* ------ Hide the default checkbox ------ */

@@ -1,0 +1,136 @@
+.formGroups {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.formGroups label {
+    display: block;
+    position: relative;
+    font-size: 13px;
+    line-height: 120%;
+    color: var(--black2);
+    margin-bottom: 5px;
+}
+
+.impRed {
+    color: var(--red1);
+}
+
+.formGroups input {
+    background: var(--grey4);
+    height: 49px;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid var(--grey4);
+}
+
+.formGroups input:focus {
+    outline: none;
+}
+
+.FormError {
+    font-size: 12px;
+    color: var(--red1);
+}
+
+.visible0 {
+    visibility: hidden;
+}
+
+.formGroups input {
+    color: var(--black1);
+    font-weight: 400;
+}
+
+/* Login */
+.formGroupslogin {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.formGroupslogin label {
+    display: block;
+    position: relative;
+    font-size: 13px;
+    line-height: 120%;
+    color: var(--black1);
+    margin-bottom: 5px;
+}
+
+.formGroupslogin input {
+    background: var(--white);
+    /* height: 49px; */
+    display: block;
+    width: 100%;
+    padding: 16px;
+    border: 1px solid var(--grey4);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.formGroupslogin input:focus {
+    outline: none;
+}
+
+.visible0 {
+    visibility: hidden;
+}
+
+.inputIcon {
+    display: block;
+    line-height: 0;
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    padding: 14px 10px;
+    cursor: pointer;
+}
+
+.inputIcon img {
+    max-width: 22px;
+}
+
+.loginAddonsWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forgetLink {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: red;
+    text-decoration: underline;
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--black1);
+}
+
+.absoluteIcon {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    padding: 13px 0;
+
+}
+
+.absoluteIcon+input {
+    padding-left: 40px;
+}
+
+@media (max-width: 767px) {
+    .formGroups input {
+        padding: 16px 15px;
+    }
+}

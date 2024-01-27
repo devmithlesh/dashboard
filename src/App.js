@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="AppContainer">
       <Sidebar isActive={istoggle} setIsActive={setIstoggle} setIsSideActive={setIsActiveSide} isSideActive={isActiveSide} />
-      <div className={`mainWrapper ${isActiveSide === true && 'Sideactive'}`}>
+      <div className={`mainWrapper ${isActiveSide === true && 'mainWrapSideCut'}`}>
         <Header isActive={istoggle} setIsActive={setIstoggle} />
         <div className="PagesWrapper">
           <Routes>
